@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/mnb"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="10dp"
+        android:layout_height="100dp" >
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBBBB"/>
+        <TextView
+            android:id="@+id/todaydate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/aclonica"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/todaytotalcount"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text=""
+            android:textSize="20dp"
+            android:textColor="#000"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    app:cardCornerRadius="5dp"
+    android:id="@+id/cardcard"
+    android:layout_below="@id/mnb"
+    android:layout_margin="10dp"
+    android:layout_height="100dp" >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BEE7FC"/>
+
+
+    <TextView
+        android:id="@+id/lasttime"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="#000"/>
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_input_add" />
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardcard"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9977206186805887/6159369340">
+    </com.google.android.gms.ads.AdView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="5dp"
+        android:id="@+id/card3"
+        android:layout_below="@id/adView"
+        android:layout_margin="10dp"
+        android:layout_height="100dp" >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFBBBB"/>
+        <TextView
+            android:id="@+id/todayamount"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text=""
+            android:textSize="20dp"
+            android:textColor="#000"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="5dp"
+        android:id="@+id/card4"
+        android:layout_below="@id/card3"
+        android:layout_margin="10dp"
+        android:layout_height="100dp" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#BEE7FC"/>
+        <TextView
+            android:id="@+id/yesterday"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text=""
+            android:textSize="20dp"
+            android:textColor="#000"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

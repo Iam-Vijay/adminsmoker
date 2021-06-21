@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AdminSmoker</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Status</string>
+    <string name="title_notifications">Info</string>
+    <string name="content">Cigarette smoking causes more than 480,000 deaths each year in the United States. This is nearly one in five deaths.1,2,3
+Smoking causes more deaths each year than the following causes combined:4
+Human immunodeficiency virus (HIV)
+Illegal drug use
+Alcohol use
+Motor vehicle injuries
+Firearm-related incidents
+More than 10 times as many U.S. citizens have died prematurely from cigarette smoking than have died in all the wars fought by the United States.1
+Smoking causes about 90% (or 9 out of 10) of all lung cancer deaths.1,2 More women die from lung cancer each year than from breast cancer.5
+Smoking causes about 80% (or 8 out of 10) of all deaths from chronic obstructive pulmonary disease (COPD).1
+Cigarette smoking increases risk for death from all causes in men and women.1
+The risk of dying from cigarette smoking has increased over the last 50 years in the U.S.1
+    Smoking damages your entire cardiovascular system. Nicotine causes blood vessels to tighten, which restricts the flow of blood. Over time, the ongoing narrowing, along with damage to the blood vessels, can cause peripheral artery disease.
+
+Smoking also raises blood pressure, weakens blood vessel walls, and increases blood clots. Together, this raises your risk of stroke.
+
+You’re also at an increased risk of worsening heart disease if you’ve already had heart bypass surgery, a heart attack, or a stent placed in a blood vessel.
+
+Smoking not only impacts your cardiovascular health, but also the health of those around you who don’t smoke. Exposure to secondhand smoke carries the same risk to a nonsmoker as someone who does smoke. Risks include stroke, heart attack, and heart disease.
+
+    Sexuality and reproductive system
+Nicotine affects blood flow to the genital areas of both men and women. For men, this can decrease sexual performance. For women, this can result in sexual dissatisfaction by decreasing lubrication and the ability to reach orgasm. Smoking may also lower sex hormone levels in both men and women. This can possibly lead to decreased sexual desire.
+
+Takeaway
+Quitting smoking is difficult, but your doctor can help you make a plan. Ask them for advice. There are a variety of nonprescription and prescription medications that can help you quit. You can also turn to our smoking cessation resource center, which has advice, stories from others, and more. There are both short and long-term benefits to quitting smoking. Since smoking affects every body system, finding a way to quit is the most important step you can take to living a longer and happier life.</string>
+    <string name="content2">Iam Not Saying you Should not Smoke but Manage your Smoke and Life ....~Vijay</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
